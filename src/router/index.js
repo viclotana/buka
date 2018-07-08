@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
 import Router from 'vue-router'
-import navbar from '@/components/navbar'
+import menu from '@/components/menu'
 
 Vue.use(VueMaterial)
 
@@ -12,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'navbar',
-      component: navbar
+      name: 'menu',
+      component: menu
     }
   ]
 })
