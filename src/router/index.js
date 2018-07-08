@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import Router from 'vue-router'
-import navbar from '@/components/navbar'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
+import Router from 'vue-router'
+import navbar from '@/components/navbar'
 
 Vue.use(VueMaterial)
 
