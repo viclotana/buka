@@ -1,7 +1,7 @@
 <template>
   <div>
     <md-tabs md-sync-route>
-      <md-tab id="tab-home" md-label="Home" to="/components/tabs/home">
+      <md-tab id="tab-menu" md-label="Menu" to="/menu">
         Home Tab
       </md-tab>
 
