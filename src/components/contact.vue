@@ -22,13 +22,9 @@
   export default {
     name: 'contact',
     data: () => ({
-      type: null,
-      withLabel: null,
-      inline: null,
-      number: null,
-      textarea: null,
-    })
-  }
+     
+ })
+}
 </script>
 <style>
 #container {
