@@ -1,31 +1,228 @@
 <template>
  <div class="menu">
-    <md-card class="md-card-example">
-      <md-card-area md-inset>
-        <md-card-media md-ratio="16:9">
-          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="Coffee House">
-        </md-card-media>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
 
-        <md-card-header>
-          <h2 class="md-title">Kryptonite Cheese-Burger</h2>
-        </md-card-header>
-      </md-card-area>
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
 
-      <md-card-content>
-        <h3 class="md-subheading">Today's availability</h3>
-        <div class="card-reservation">
-          <md-icon>access_time</md-icon>
-          <div class="md-list md-horizontal-line">
-            <md-list-item>5:30PM</md-list-item>
-            <md-list-item>7:30PM</md-list-item>
-            <md-list-item>9:00PM</md-list-item>
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
           </div>
-        </div>
-      </md-card-content>
 
-      <md-card-actions>
-        <md-button class="md-primary">Reserve</md-button>
-      </md-card-actions>
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+     <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
+    </md-card>
+    <md-card>
+      <md-card-media>
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="People">
+      </md-card-media>
+
+      <md-card-header>
+        <div class="md-title">Title goes here</div>
+        <div class="md-subhead">Subtitle here</div>
+      </md-card-header>
+
+      <md-card-expand>
+        <md-card-actions md-alignment="space-between">
+          <div>
+            <md-button>Action</md-button>
+          </div>
+
+          <md-card-expand-trigger>
+            <md-button>Learn more</md-button>
+          </md-card-expand-trigger>
+        </md-card-actions>
+
+        <md-card-expand-content>
+          <md-card-content>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
+          </md-card-content>
+        </md-card-expand-content>
+      </md-card-expand>
     </md-card>
  </div>
 </template>
@@ -40,5 +237,15 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style lang="css" scoped>
+  .card-expansion {
+    height: 480px;
+  }
+
+  .md-card {
+    width: 320px;
+    margin: 4px;
+    display: inline-block;
+    vertical-align: top;
+  }
 </style>
