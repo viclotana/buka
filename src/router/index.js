@@ -3,7 +3,7 @@ import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.min.css'
 import Router from 'vue-router'
 import menu from '@/components/menu'
-import reservations from '@/components/reservations'
+import records from '@/components/records'
 import contact from '@/components/contact'
 import faqs from '@/components/faqs'
 
@@ -19,9 +19,9 @@ export default new Router({
       component: menu
     },
     {
-      path: '/reservations',
-      name: 'reservations',
-      component: reservations
+      path: '/records',
+      name: 'records',
+      component: records
     },
     {
       path: '/contact',
