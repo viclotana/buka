@@ -21,8 +21,7 @@
 <script>
   export default {
     name: 'contact',
-    data: () => ({
-     
+  data: () => ({
   })
 }
 </script>
