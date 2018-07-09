@@ -23,7 +23,7 @@
     name: 'contact',
     data: () => ({
      
- })
+  })
 }
 </script>
 <style>
