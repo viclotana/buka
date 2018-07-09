@@ -13,7 +13,7 @@
       </md-tab>
 
       <md-tab id="tab-faqs" md-label="FAQs" to="/faqs">
-        FAQs tab
+        Frequently Asked Questions
       </md-tab>
     </md-tabs>
     <div class="container">
