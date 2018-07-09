@@ -4,8 +4,8 @@
       <md-tab id="tab-menu" md-label="Menu" to="/">
       </md-tab>
 
-      <md-tab id="tab-reservations" md-label="Reservations" to="/reservations">
-        Reservations tab
+      <md-tab id="tab-records" md-label="Records" to="/records">
+        records tab
       </md-tab>
 
       <md-tab id="tab-contact" md-label="Contact" to="/contact">
