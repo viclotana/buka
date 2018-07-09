@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <md-field>
       <label>Name</label>
       <md-input v-model="name" type="name" placeholder=" your name"></md-input>

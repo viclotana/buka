@@ -9,7 +9,7 @@
       </md-tab>
 
       <md-tab id="tab-contact" md-label="Contact" to="/contact">
-        Contact Us tab
+        Send Us a Message
       </md-tab>
 
       <md-tab id="tab-faqs" md-label="FAQs" to="/faqs">
