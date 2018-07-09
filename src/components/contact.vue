@@ -14,6 +14,7 @@
       <label>Message</label>
       <md-textarea v-model="textarea"></md-textarea>
     </md-field>
+    <md-button class="md-dense md-raised md-primary">Send</md-button>
   </div>
 </template>
 
@@ -29,3 +30,8 @@
     })
   }
 </script>
+<style>
+#container {
+  margin: 50px;
+}
+</style>
