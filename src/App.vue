@@ -1,8 +1,7 @@
 <template>
   <div>
     <md-tabs md-sync-route>
-      <md-tab id="tab-menu" md-label="Menu" to="/menu">
-        Menu Tab
+      <md-tab id="tab-menu" md-label="Menu" to="/">
       </md-tab>
 
       <md-tab id="tab-reservations" md-label="Reservations" to="/reservations">
@@ -17,6 +16,9 @@
         FAQs tab
       </md-tab>
     </md-tabs>
+    <div class="container">
+      <router-view />
+    </div>
   </div>
 </template>
 

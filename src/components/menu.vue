@@ -3,30 +3,22 @@
     <md-card class="md-card-example">
       <md-card-area md-inset>
         <md-card-media md-ratio="16:9">
-          <img src="/assets/examples/card-example.jpg" alt="Coffee House">
+          <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=719292378935d0f9168f11f9ad00558d&auto=format&fit=crop&w=500&q=60" alt="Coffee House">
         </md-card-media>
 
         <md-card-header>
-          <h2 class="md-title">Coffee House</h2>
-          <div class="md-subhead">
-            <md-icon>location_on</md-icon>
-            <span>2 miles</span>
-          </div>
+          <h2 class="md-title">Kryptonite Cheese-Burger</h2>
         </md-card-header>
-
-        <md-card-content>
-          Illy Coffee served with a complimentary Leonidas Belgian Chocolate with all beverages.
-        </md-card-content>
       </md-card-area>
 
       <md-card-content>
         <h3 class="md-subheading">Today's availability</h3>
         <div class="card-reservation">
           <md-icon>access_time</md-icon>
-          <div class="md-button-group">
-            <md-button>5:30PM</md-button>
-            <md-button>7:30PM</md-button>
-            <md-button>9:00PM</md-button>
+          <div class="md-list md-horizontal-line">
+            <md-list-item>5:30PM</md-list-item>
+            <md-list-item>7:30PM</md-list-item>
+            <md-list-item>9:00PM</md-list-item>
           </div>
         </div>
       </md-card-content>
