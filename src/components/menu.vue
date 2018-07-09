@@ -142,7 +142,7 @@
     </md-card>
      <md-card>
       <md-card-media>
-        <img src="" alt="People">
+        <img src="https://images.unsplash.com/photo-1453831362806-3d5577f014a4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9dd8da96be0724ab84e4147d428f6bba&auto=format&fit=crop&w=500&q=60" alt="People">
       </md-card-media>
 
       <md-card-header>
